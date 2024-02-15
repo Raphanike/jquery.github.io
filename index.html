@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+        <button type="button">Nova Imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir Nova Imagem</h2>
+        <input type="url" id="nova-imagem" placeholder="URL da imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="Cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="img/foto1.jpg" alt="Pintura de um gato">
+            <div class="OverLay">
+                <a href="img/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="img/foto2.jpg" alt="Pintura de um gato">
+             <div class="OverLay">
+                <a href="img/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="img/foto3.jpg" alt="Pintura de um gato">
+            <div class="OverLay">
+                <a href="img/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
