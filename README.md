@@ -20,6 +20,4 @@ Este é um projeto de uma **galeria de imagens** simples e funcional desenvolvid
 
 1. Link do projeto na VERCEL:
    
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
    https://jquery-github-io.vercel.app/
